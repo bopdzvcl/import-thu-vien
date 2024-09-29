@@ -40,7 +40,7 @@
 ```
 # KẾT NỐI SQL
 ```java
-package util;
+package util; // Sửa package
 import java.sql.Connection;
 import java.sql.DriverManager;
 import java.sql.SQLException;
