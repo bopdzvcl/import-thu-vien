@@ -62,7 +62,7 @@ public class DBConnect {
         try {
             Class.forName("com.microsoft.sqlserver.jdbc.SQLServerDriver");
             return DriverManager.getConnection(connectionUrl, USERNAME, PASSWORD);
-        } // Handle any errors that may have occurred.
+        }
         catch (ClassNotFoundException | SQLException e) {
             e.printStackTrace(System.out);
         }
