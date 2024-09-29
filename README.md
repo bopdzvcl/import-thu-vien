@@ -11,7 +11,3 @@
     <artifactId>jakarta.servlet.jsp.jstl</artifactId>
     <version>3.0.1</version>
 </dependency>
-
-# Lombox
-
-```xml
