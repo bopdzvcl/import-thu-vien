@@ -20,7 +20,7 @@
 ```
 
 
-# Lombox
+# Lombok
 ```html
 <dependency>
     <groupId>org.projectlombok</groupId>
