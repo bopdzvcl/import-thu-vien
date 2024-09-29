@@ -13,7 +13,9 @@
     <artifactId>jakarta.servlet.jsp.jstl</artifactId>
     <version>3.0.1</version>
 </dependency>
-###for
+```
+# Loop JSTL
+```css
 <%@ taglib prefix = "c" uri = "http://java.sun.com/jsp/jstl/core" %>
 ```
 
@@ -28,7 +30,7 @@
 </dependency>
 ```
 
-# IMPORT SQL
+# SQL
 ```html
 <dependency>
     <groupId>com.microsoft.sqlserver</groupId>
