@@ -74,8 +74,8 @@ public class DBConnect {
     }
 }
 ```
-# Bean Util
-```
+# BeanUtils
+```html
 <dependency>
     <groupId>commons-beanutils</groupId>
     <artifactId>commons-beanutils</artifactId>
