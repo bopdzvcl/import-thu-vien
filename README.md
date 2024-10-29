@@ -83,7 +83,7 @@ public class DBConnect {
 </dependency>
 ```
 # Hibernate
-```html
+```c++
 package com.example.demo.util;
 import org.hibernate.SessionFactory;
 import org.hibernate.boot.registry.StandardServiceRegistryBuilder;
