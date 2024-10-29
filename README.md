@@ -123,7 +123,7 @@ public class demo {
     }
 }
 ```
-# import hibernate
+# Import Hibernate
 ```html
     <dependency>
       <groupId>org.hibernate</groupId>
