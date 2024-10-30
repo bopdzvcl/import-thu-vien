@@ -82,8 +82,16 @@ public class DBConnect {
     <version>1.9.4</version>
 </dependency>
 ```
+# Import Hibernate
+```html
+    <dependency>
+      <groupId>org.hibernate</groupId>
+      <artifactId>hibernate-core-jakarta</artifactId>
+      <version>5.6.10.Final</version>
+    </dependency>
+```
 # Hibernate
-```c++
+```java
 package com.example.demo.util;
 import org.hibernate.SessionFactory;
 import org.hibernate.boot.registry.StandardServiceRegistryBuilder;
@@ -122,12 +130,4 @@ public class demo {
         System.out.println(getFACTORY());
     }
 }
-```
-# Import Hibernate
-```html
-    <dependency>
-      <groupId>org.hibernate</groupId>
-      <artifactId>hibernate-core-jakarta</artifactId>
-      <version>5.6.10.Final</version>
-    </dependency>
 ```
