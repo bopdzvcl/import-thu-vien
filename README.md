@@ -84,11 +84,16 @@ public class DBConnect {
 ```
 # Import Hibernate
 ```html
-    <dependency>
+<dependency>
+    <groupId>com.microsoft.sqlserver</groupId>
+    <artifactId>mssql-jdbc</artifactId>
+    <version>9.4.1.jre16</version>
+</dependency>
+<dependency>
       <groupId>org.hibernate</groupId>
       <artifactId>hibernate-core-jakarta</artifactId>
       <version>5.6.10.Final</version>
-    </dependency>
+</dependency>
 ```
 # Hibernate
 ```java
