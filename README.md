@@ -119,7 +119,7 @@ public class demo {
         properties.put(Environment.USER, "sa");
         properties.put(Environment.PASS, "123");
         properties.put(Environment.SHOW_SQL, "true");
-
+        conf.addAnnotatedClass(PhongKhamEntity.class);//Thêm vào class đại diện cho database
         conf.setProperties(properties);
         ServiceRegistry registry = new StandardServiceRegistryBuilder()
                 .applySettings(conf.getProperties()).build();
