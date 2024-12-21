@@ -130,6 +130,14 @@ public class demo {
     public static SessionFactory getFACTORY() {
         return FACTORY;
     }
+```
+# TÊN BẢNG TỰ ĐỊNH NGHĨA
+``` html
+spring:
+  jpa:
+    hibernate:
+      naming:
+        physical-strategy: org.hibernate.boot.model.naming.PhysicalNamingStrategyStandardImpl
 
     public static void main(String[] args) {
         System.out.println(getFACTORY());
